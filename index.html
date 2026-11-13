@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr. Bindu V A | Assistant Professor of Mathematics</title>
+<meta name="description" content="Portfolio of Dr. Bindu V A, Assistant Professor, Department of Mathematics, RSET. Interests: Number Theory.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a href="#home" class="brand">Bindu V A</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
+  <nav id="menu">
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#interests">Research</a>
+    <a href="#membership">Membership</a>
+    <a href="#contact">Contact</a>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle dark mode">◐</button>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <canvas id="ulam" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Department of Mathematics · RSET</p>
+        <h1>Dr. Bindu <em>V A</em></h1>
+        <p class="lead">Assistant Professor of Mathematics, with a research interest in <strong>Number Theory</strong>.</p>
+        <div class="cta">
+          <a class="btn primary" href="#about">About me</a>
+          <a class="btn" href="#education">Education</a>
+        </div>
+      </div>
+      <figure class="portrait">
+        <img src="photo.jpg" alt="Portrait of Dr. Bindu V A" width="220" height="250">
+      </figure>
+    </div>
+    <p class="hint">Background: the Ulam spiral – primes, drawn in a square spiral. Move your cursor over it.</p>
+  </section>
+
+  <section id="about" class="section reveal">
+    <h2><span class="num">01</span> About</h2>
+    <div class="about-grid">
+      <p>Dr. Bindu V A joined the Department of Mathematics, RSET in <strong>2009</strong> and is currently working as an Assistant Professor. She completed her graduation in Mathematics from Bharata Mata College, Thrikkakara, followed by an M.Sc. in Mathematics from Newman College, Thodupuzha.</p>
+      <p>To complement her career, she added an M.Phil. from Cochin University of Science &amp; Technology. Interested in furthering her career in teaching, she also completed a B.Ed. from St. Joseph Training College for Women, Ernakulam. She was awarded a <strong>Ph.D. in Mathematics</strong> by Bharathidasan University in 2025.</p>
+    </div>
+    <ul class="stats">
+      <li><span class="count" data-to="2009" data-plain="1">2009</span><small>Joined RSET</small></li>
+      <li><span class="count" data-to="5">5</span><small>Degrees earned</small></li>
+      <li><span class="count" data-to="2025" data-plain="1">2025</span><small>Ph.D. awarded</small></li>
+    </ul>
+  </section>
+
+  <section id="education" class="section reveal">
+    <h2><span class="num">02</span> Education</h2>
+    <ol class="timeline">
+      <li>
+        <span class="tag">2025</span>
+        <h3>Ph.D. in Mathematics</h3>
+        <p>Bharathidasan University</p>
+      </li>
+      <li>
+        <span class="tag">M.Phil.</span>
+        <h3>M.Phil. in Mathematics</h3>
+        <p>Cochin University of Science &amp; Technology</p>
+      </li>
+      <li>
+        <span class="tag">B.Ed.</span>
+        <h3>Bachelor of Education</h3>
+        <p>St. Joseph Training College for Women, Ernakulam</p>
+      </li>
+      <li>
+        <span class="tag">M.Sc.</span>
+        <h3>M.Sc. in Mathematics</h3>
+        <p>Newman College, Thodupuzha</p>
+      </li>
+      <li>
+        <span class="tag">B.Sc.</span>
+        <h3>Graduation in Mathematics</h3>
+        <p>Bharata Mata College, Thrikkakara</p>
+      </li>
+    </ol>
+  </section>
+
+  <section id="interests" class="section reveal">
+    <h2><span class="num">03</span> Areas of Interest</h2>
+    <div class="cards">
+      <article class="card feature">
+        <h3>Number Theory</h3>
+        <p>The study of integers and their properties – primes, divisibility and the patterns hidden in whole numbers.</p>
+        <button class="btn small" id="primeBtn">Generate a prime ✦</button>
+        <p class="prime-out" id="primeOut" aria-live="polite">Click to find a random prime.</p>
+      </article>
+      <article class="card">
+        <h3>Mathematics</h3>
+        <p>Teaching and exploring mathematics at the undergraduate level for over a decade at RSET.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="membership" class="section reveal">
+    <h2><span class="num">04</span> Professional Membership</h2>
+    <div class="card wide">
+      <h3>Life Member</h3>
+      <p>Kerala Mathematical Association</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section reveal">
+    <h2><span class="num">05</span> Contact</h2>
+    <p>Department of Mathematics<br>RSET, Kerala, India</p>
+  </section>
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Dr. Bindu V A. All rights reserved.</p>
+  <a href="#home">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
